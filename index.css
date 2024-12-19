@@ -1,0 +1,336 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(254, 252, 252);
+}
+
+/* header{
+  background-color: #dd8888;
+} */
+
+nav {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  /* width: 100px; */
+  margin-left: -20px;
+}
+
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  /* border: 1px solid grey; */
+  float: left;
+  width: 600px;
+  /* background: #f1f1f1; */
+}
+
+form.example button {
+  float: left;
+  width: 40px;
+  padding: 10px;
+  background: #e10b0b;
+  color: white;
+  font-size: 17px;
+  /* border: 1px solid grey; */
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-list a:hover {
+  color: #61dafb; /* Change the color on hover */
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  color: rgba(255,255,255,1);
+}
+
+.nav-list li:hover .dropdown {
+  display: block;
+}
+
+.dropdown a {
+display: block;
+padding: 10px;
+color: white;
+text-decoration: none;
+}
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.dropdown {
+  position:relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #dd8888;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* .dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+.dropdown-item {
+  padding: 10px;
+  text-decoration: none;
+  color: #090101f0;
+  display: block;
+}
+
+.login {
+  border-color: rgba(235,235,235,1);
+  justify-content: center;
+  margin: 0px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: auto;
+  background-color: transparent;
+  border: 1px solid rgba(200,201,202,1);
+  color: rgba(255,255,255,1);
+  display: inline-flex;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.login:hover{
+  .css-1hec36u:hover {
+      background-color: rgba(255,255,255,0.3);
+      color: rgba(255,255,255,1);
+      box-shadow: none;
+  }
+}
+.signup{
+  background-color: rgb(244,13,21);
+  color: rgba(255,255,255,1);
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.3);
+  display: inline-block;
+  margin-left: 12px;
+  vertical-align: middle;
+  border-radius: 4px;
+  margin-right: -10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  /* position: relative; */
+  
+}
+
+.list{
+  list-style-type: none;
+  color: rgba(255,255,255,1);
+}
+
+  /* Second Nav Bar */
+  .second-nav{
+    box-shadow: 0 2px 5px rgba(138, 17, 17, 0.1);
+    padding:0;
+    display: inline;
+    align-items: center;
+    position: relative;
+    z-index: 1; 
+    text-align: center;
+    width: 35%;
+    margin-left: 180px;
+  }
+
+  .second-dropdown {
+    position: relative;
+    display: inline-block;
+    color:#070707;
+    margin: 0;
+    padding: 0%;
+
+  }
+
+  .second-dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #fffefe; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* min-width: 160px; */
+    z-index: 1;
+  }
+
+  .second-dropdown:hover .second-dropdown-content {
+    display: block;
+  }
+
+  .second-dropdown-item {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    
+  }
+
+  #image-slider {
+    width: 100%;
+    height: 90vh; 
+    overflow: hidden;
+    display: inline;
+    /* position: absolute; */
+ }
+ 
+ #image-slider img {
+    width: 100%;
+    display: none;
+ 
+    
+    
+ }
+
+ .header{
+  display: inline;
+  /* position: relative; */
+ }
+
+ .navigator{
+  /* display: inline; */
+  position: absolute;
+  /* transform: translate (50%, -50%);
+  background-color:rgba (255, 255, 255, 0.5) */
+
+ }
+.category{
+  text-align: center;
+}
+.div1{
+  margin-left: 100px;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  border-radius: 3px;
+  font-weight: normal;
+  color: rgb(250, 251, 252);
+  font-size: 14px;
+  line-height: 20px;
+  display:inline-block;
+  padding: 30px 30px 30px 30px ;
+}
+.div2{
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+  border-top: 1px solid rgba(235,235,235,1);
+  border-right: 1px solid rgba(235,235,235,1);
+  border-bottom: 1px solid rgba(235,235,235,1);
+  border-left: 1px solid rgba(235,235,235,1);
+  border-color: rgba(227,227,227,1);
+  border-radius: 4px;
+}
+.div3{
+  margin-bottom: 16px;
+  border-color: rgba(235,235,235,1);
+  padding: 35px 35px 35px 35px;
+}
+.para{
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgba(45,46,47,1);
+  text-align: center;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 39px
+}
+.img-recent{
+ height: 200px;
+width: 390px;
+}
+.webgrid{
+  margin-left: 50px;
+}
+.bulb,.funny{
+  height: 30px;
+  width: 30px;
+}
+.cool{
+  height: 25px;
+  width: 20px;
+
+}
+.emoji{
+  padding-right:50px;
+}
+
+.fixed-top{
+  position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Hide the regular navigation links */
+  .nav-sec ul {
+    display: none;
+  }
+
+  /* Display the hamburger icon */
+  .nav-sec .menu-icon {
+    display: block;
+  }
+
+  /* Styles for the dropdown menu when the menu is open */
+  .nav-sec.open ul {
+    display: block;
+    background-color: #555;
+  }
+
+  /* Styles for the hidden navigation links when the menu is open */
+  .nav-sec.open a {
+    display: block;
+    padding: 10px;
+  }
+}
+
+header{
+  background: linear-gradient(180deg,#000000b3,#0000004d 72.92%,#0000);
+}

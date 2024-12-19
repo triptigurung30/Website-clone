@@ -1,0 +1,6 @@
+Redirection refers to the process of directing users to a different page or URL after we perform a specific action, such as logging in or signing up.
+Login Redirection:
+After a user successfully logs in, we may be redirected to our user dashboard, home page, or any other personalized area of the website. This helps to provide a seamless and user-friendly experience.
+
+Signup Redirection:
+After a user completes the signup process, we  may be redirected to a welcome page, an onboarding tutorial, or our new user profile page. 

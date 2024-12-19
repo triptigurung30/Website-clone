@@ -1,0 +1,13 @@
+Random notes (Box shadow, Filter)
+
+Box shadow property in html allows us  to add shadows to an element, including images.
+The syntax for using the box shadow is:
+Syntax: box-shadow: offset-x offset-y blur-radius color;
+Where offset-x is used for horizontal positioning of the shoadow
+    offset-y is used for vertical positioningof the shadow
+    blur for the blurriness of the shadow and colour for the colour of the shadow.
+
+Next way to apply shadow is by using filter with drop shadow
+The filter property, when used with the drop-shadow value, can achieve a similar shadow effect.
+Syntax: filter: drop-shadow( offset-x offset-y blur-radius color );
+ we can adjust blurriness, offset and color of the shadow by using filter also.
